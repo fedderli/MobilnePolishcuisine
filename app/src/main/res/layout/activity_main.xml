@@ -34,6 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
+        android:background="#1f2fff"
         app:menu="@menu/bootom_nav_menu"/>
 
 
