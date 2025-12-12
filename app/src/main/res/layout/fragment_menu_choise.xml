@@ -16,6 +16,7 @@
         android:background="#2D52F6"
         android:padding="10dp"
         android:text="Wybierz sposob skladania zamoienia"
+        android:gravity="center"
         android:textColor="#E7E7FF"
         android:textSize="40sp" />
 
