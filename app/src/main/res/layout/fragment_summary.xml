@@ -1,14 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SummaryFragment">
+    tools:context=".SummaryFragment"
+    android:orientation="vertical"
+    android:background="#CFD7FF">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:background="#2D52F6"
+        android:padding="10dp"
+        android:text="Podsumowanie"
+        android:gravity="center"
+        android:textColor="#E7E7FF"
+        android:textSize="40sp"
+        />
 
-</FrameLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ostateczna Cena"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="10sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="60sp"
+        android:text="#### zł"/>
+
+    <Button
+        android:id="@+id/buttonAddMeal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="zamów dodatkowe danie"
+        android:textSize="40sp"
+        android:backgroundTint="#2E5DD3"/>
+
+
+
+</LinearLayout>
